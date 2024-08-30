@@ -1,0 +1,21 @@
+version: 1.0.0
+dataset_id: "000001"
+title: "Data title"
+doi: "10.1234/data_doi"
+description: "This dataset containsl...."
+created_at: "2023-01-01T12:00:00Z"
+updated_at: "2023-06-15T12:00:00Z"
+data_format: "CSV"
+tags:
+  - tag 1
+  - tag 2
+  - tag 3
+source: "National Meteorological Organization"
+authors:
+  name: "Dr. Jane Doe"
+  orcid: "0000-0002-1825-0097"
+license: "CC BY 4.0"
+access_url: "https://example.com/datasets/...."
+documentation_url: "https://example.com/datasets/...."
+api_endpoint: "https://example.com/api/...."
+api_documentation: "https://example.com/api/...."

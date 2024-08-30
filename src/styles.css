@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #2c3e50;
+}
+
+p {
+    font-size: 16px;
+    color: #34495e;
+}
+
+.caution-box {
+    background-color: #fef3c7;
+    border-left: 6px solid #f59e0b;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.dataset-container {
+    margin-top: 30px;
+}
+
+.dataset {
+    background-color: #ffffff;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.dataset h2 {
+    margin-top: 0;
+}
+
+.dataset p {
+    margin: 5px 0;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-secondary {
+    background-color: #6c757d;
+}
