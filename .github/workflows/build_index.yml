@@ -7,6 +7,7 @@ on:
         - main
       paths:
         - 'catalog/**.yaml'
+        - 'catalog/**.yml'
 
 permissions:
     contents: write
