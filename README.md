@@ -86,6 +86,13 @@ Making use of the last development in webassembly technologies
 
 Open issues are registered in the repository and taken by the community. 
 
+
+## Development
+
+### How to test the github action build index?
+
+The github action can be tested by pulling both branches:
+
 ## Develop by
 
 Develop by SDSC in the frame of the Open Research Data for the Sciences Hackathon in collaboration with the EPFL Open Science office. We thanks the pNeuma Team for the support during the development of this prototype. 

@@ -2,6 +2,14 @@
   "version": "1.0.0",
   "type": "object",
   "properties": {
+    "schema_version": {
+      "type": "string",
+      "description": "The version of the dataset schema user"
+    },
+    "schema_type": {
+      "type": "string",
+      "description": "Which of the available schemas are used"
+    },
     "dataset_id": {
       "type": "string",
       "description": "A unique identifier for the dataset"
@@ -13,6 +21,10 @@
     "doi": {
       "type": "string",
       "description": "The DOI of the dataset"
+    },
+    "version": {
+      "type": "string",
+      "description": "Version of the dataset"
     },
     "description": {
       "type": "string",
@@ -86,7 +98,6 @@
     "description",
     "created_at",
     "data_format",
-    "size_in_mb",
     "source",
     "authors",
     "license",
