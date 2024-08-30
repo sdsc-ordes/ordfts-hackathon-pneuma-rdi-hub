@@ -1,0 +1,125 @@
+{
+    "index_timestamp": "2024-09-08 16:57:42.820857",
+    "catalog": {
+        "datasets": [
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0001-pneuma-dataset",
+                "title": "pNEUMA Dataset",
+                "doi": "10.5281/zenodo.7426506",
+                "version": "v1",
+                "description": "pNEUMA is an open large-scale dataset of naturalistic trajectories of half a million vehicles that have been collected by a one-of-a-kind experiment by a swarm of drones in the congested downtown area of Athens, Greece.",
+                "created_at": "2022-12-08T16:26:11Z",
+                "updated_at": "2022-12-08T16:26:11Z",
+                "data_format": "zip",
+                "tags": [
+                    "traffic",
+                    "drone"
+                ],
+                "source": "Zenodo",
+                "authors": [
+                    {
+                        "name": "Kim, Sohyeong"
+                    },
+                    {
+                        "name": "Anagnostopoulos, Georg"
+                    },
+                    {
+                        "name": "Barmpounakis, Emmanouil"
+                    },
+                    {
+                        "name": "Geroliminis, Nikolas"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://zenodo.org/record/7426506/",
+                "documentation_url": "https://zenodo.org/record/7426506"
+            },
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0004-ordfts-hackathon-pneuma-vehicles-segmentation",
+                "title": "ordfts Hackathon pNEUMA vehicles segmentation",
+                "doi": "10.5281/zenodo.7426506",
+                "version": "v1",
+                "description": "Pairs of cropped images of vehicles and masks obtained by using SAM model by Meta. This is an experimental dataset to test the HuggingFace capabilities of streaming data. ",
+                "created_at": "2023-08-30T21:12:56Z",
+                "updated_at": "2023-08-30T21:12:56Z",
+                "data_format": "parquet",
+                "tags": [
+                    "traffic",
+                    "GNSS",
+                    "urban mobility",
+                    "traffic safety"
+                ],
+                "source": "Hugging Face",
+                "authors": [
+                    {
+                        "name": "Carlos Vivar Rios"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://huggingface.co/datasets/katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation",
+                "documentation_url": "https://github.com/sdsc-ordes/ordfts-hackathon-vehicles-detection"
+            },
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0003-pneuma-vision-parquet",
+                "title": "pNEUMA vision parquet",
+                "doi": "10.5281/zenodo.7426506",
+                "version": "v1",
+                "description": "This is a mirror test of the pNEUMA vision dataset in HuggingFace allowing streaming of data.",
+                "created_at": "2023-08-30T21:12:56Z",
+                "updated_at": "2023-08-30T21:12:56Z",
+                "data_format": "parquet",
+                "tags": [
+                    "traffic",
+                    "GNSS",
+                    "urban mobility",
+                    "traffic safety"
+                ],
+                "source": "Hugging Face",
+                "authors": [
+                    {
+                        "name": "Carlos Vivar Rios"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://huggingface.co/datasets/katospiegel/pneuma-vision-parquet",
+                "documentation_url": "https://github.com/sdsc-ordes/ordfts-hackathon-vehicles-detection"
+            },
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0002-pneuma-vision-dataset",
+                "title": "pNEUMA vision dataset",
+                "doi": "10.5281/zenodo.10491409",
+                "version": "v1",
+                "description": "The pNEUMA dataset is the drone traffic imagery dataset that contains images of frame and vehicle annotations as positions. This dataset is the expansion of the pNEUMA, the urban trajectory dataset collected by swarms of drones in Athens. For more details about pNEUMA and pNEUMA Vision, please check our website at https://open-traffic.epfl.ch and github.",
+                "created_at": "2023-08-30T15:12:56Z",
+                "updated_at": "2023-08-30T15:12:56Z",
+                "data_format": "csv jpg",
+                "tags": [
+                    "traffic",
+                    "GNSS",
+                    "urban mobility",
+                    "traffic safety"
+                ],
+                "source": "Zenodo",
+                "authors": [
+                    {
+                        "name": "Barmpounakis, Emmanouil"
+                    },
+                    {
+                        "name": "Geroliminis, Nikolas"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://zenodo.org/record/10491409",
+                "documentation_url": "https://zenodo.org/record/10491409"
+            }
+        ]
+    }
+}
