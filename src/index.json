@@ -1,5 +1,5 @@
 {
-    "index_timestamp": "2024-09-08 16:31:47.904322",
+    "index_timestamp": "2024-09-08 16:45:29.626056",
     "catalog": {
         "datasets": [
             {
@@ -20,8 +20,16 @@
                 "source": "Zenodo",
                 "authors": [
                     {
-                        "name": "Kim, Sohyeong",
-                        "orcid": "0000-0000-0000-0000"
+                        "name": "Kim, Sohyeong"
+                    },
+                    {
+                        "name": "Anagnostopoulos, Georg"
+                    },
+                    {
+                        "name": "Barmpounakis, Emmanouil"
+                    },
+                    {
+                        "name": "Geroliminis, Nikolas"
                     }
                 ],
                 "license": "CC BY 4.0",
