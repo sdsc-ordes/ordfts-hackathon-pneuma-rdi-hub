@@ -15,8 +15,8 @@ tags:
   - "traffic safety"
 source: "Zenodo"
 authors:
-  name: "Barmpounakis, Emmanouil"
-  orcid: "0000-0000-0000-0000"
+  - name: "Barmpounakis, Emmanouil"
+    orcid: "0000-0000-0000-0000"
 license: "CC BY 4.0"
 access_url: "https://zenodo.org/record/10491409"
 documentation_url: "https://zenodo.org/record/10491409"

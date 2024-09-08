@@ -1,0 +1,48 @@
+name: Build page
+
+on:
+    workflow_dispatch:
+    push:
+      branches:
+        - main
+      paths:
+        - 'src/*'
+
+permissions:
+    contents: write
+
+jobs:
+    build-index:
+        runs-on: ubuntu-latest
+        if: github.event.repository.fork == false
+
+        steps:
+        - name: Checkout main
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 2
+            ref: 'main'
+            path: main
+
+        - name: Checkout gh-pages
+          uses: actions/checkout@v4
+          with:
+            fetch-depth: 2
+            ref: 'gh-pages'
+            path: gh-pages
+
+        - name: Copying src
+          run: cp -r main/src/* gh-pages/
+
+        - name: Get last commit message - gh-pages
+          id: last-commit-message-gh-pages
+          run: echo "msg=$(git -C gh-pages log -1 --pretty=%s)" >> $GITHUB_OUTPUT
+
+        - name: Commit - gh-pages
+          uses: stefanzweifel/git-auto-commit-action@v5
+          with:
+            commit_message: ${{ steps.last-commit-message-gh-pages.outputs.msg }}
+            commit_options: '--amend --no-edit'
+            push_options: '--force'
+            skip_fetch: true
+            repository: gh-pages

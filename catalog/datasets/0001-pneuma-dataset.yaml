@@ -13,8 +13,8 @@ tags:
   - "drone"
 source: "Zenodo"
 authors:
-  name: "Kim, Sohyeong"
-  orcid: "0000-0000-0000-0000"
+  - name: "Kim, Sohyeong"
+    orcid: "0000-0000-0000-0000"
 license: "CC BY 4.0"
 access_url: "https://zenodo.org/record/7426506/"
 documentation_url: "https://zenodo.org/record/7426506"

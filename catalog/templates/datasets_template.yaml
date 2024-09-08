@@ -12,8 +12,8 @@ tags:
   - tag 3
 source: "National Meteorological Organization"
 authors:
-  name: "Dr. Jane Doe"
-  orcid: "0000-0002-1825-0097"
+  - name: "Dr. Jane Doe"
+    orcid: "0000-0002-1825-0097"
 license: "CC BY 4.0"
 access_url: "https://example.com/datasets/...."
 documentation_url: "https://example.com/datasets/...."

@@ -56,19 +56,22 @@
       "description": "The source or origin of the dataset"
     },
     "authors": {
-      "type": "object",
+      "type": "array",
       "description": "The authors or creators of the dataset",
-      "properties": {
-        "name": {
-          "type": "string",
-          "description": "Name of the author of the dataset"
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Name of the author of the dataset"
+          },
+          "orcid": {
+            "type": "string",
+            "description": "ORCID of the researcher author of the dataset"
+          }
         },
-        "orcid": {
-          "type": "string",
-          "description": "ORCID of the researcher author of the dataset"
-        }
-      },
-      "required": ["name"]
+        "required": ["name"]
+      }
     },
     "license": {
       "type": "string",

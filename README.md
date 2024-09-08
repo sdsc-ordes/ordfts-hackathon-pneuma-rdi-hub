@@ -62,18 +62,20 @@ Each of these assets type has one basic metadata file requested.
 3. Fill the template with all requested data and start a Pull Request (PR) to this repository. 
 4. This will open a discussion thread with the community and moderators of the hub. 
 5. The PR approval will trigger a github action, validating the item added.
-6. 
+6. The action will render the new information in the page
 
 
 #### How to add a new project to this Hub?
 
+TBD
 
 #### How to add a new datasets/model/publication to the Hub?
 
+TBD
 
 ### How the community can add a new research asset type?
 
-Addidn or editing a research schema is as easy a modifying one of the files located in `/catalog/schemas`
+Adding or editing a research schema is as easy a modifying one of the files located in `/catalog/schemas`
 
 ### How the community can add a new webapp? 
 
