@@ -14,7 +14,9 @@ tags:
 source: "Zenodo"
 authors:
   - name: "Kim, Sohyeong"
-    orcid: "0000-0000-0000-0000"
+  - name: "Anagnostopoulos, Georg"
+  - name: "Barmpounakis, Emmanouil"
+  - name: "Geroliminis, Nikolas"
 license: "CC BY 4.0"
 access_url: "https://zenodo.org/record/7426506/"
 documentation_url: "https://zenodo.org/record/7426506"
