@@ -15,7 +15,7 @@ tags:
   - "traffic safety"
 source: "Hugging Face"
 authors:
-  - "Carlos Vivar Rios"
+  - name: "Carlos Vivar Rios"
 license: "CC BY 4.0"
 access_url: "https://huggingface.co/datasets/katospiegel/pneuma-vision-parquet"
 documentation_url: "https://github.com/sdsc-ordes/ordfts-hackathon-vehicles-detection"

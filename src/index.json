@@ -1,5 +1,5 @@
 {
-    "index_timestamp": "2024-09-08 16:50:41.941809",
+    "index_timestamp": "2024-09-08 16:57:42.820857",
     "catalog": {
         "datasets": [
             {
@@ -35,6 +35,60 @@
                 "license": "CC BY 4.0",
                 "access_url": "https://zenodo.org/record/7426506/",
                 "documentation_url": "https://zenodo.org/record/7426506"
+            },
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0004-ordfts-hackathon-pneuma-vehicles-segmentation",
+                "title": "ordfts Hackathon pNEUMA vehicles segmentation",
+                "doi": "10.5281/zenodo.7426506",
+                "version": "v1",
+                "description": "Pairs of cropped images of vehicles and masks obtained by using SAM model by Meta. This is an experimental dataset to test the HuggingFace capabilities of streaming data. ",
+                "created_at": "2023-08-30T21:12:56Z",
+                "updated_at": "2023-08-30T21:12:56Z",
+                "data_format": "parquet",
+                "tags": [
+                    "traffic",
+                    "GNSS",
+                    "urban mobility",
+                    "traffic safety"
+                ],
+                "source": "Hugging Face",
+                "authors": [
+                    {
+                        "name": "Carlos Vivar Rios"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://huggingface.co/datasets/katospiegel/ordfts-hackathon-pneuma-vehicles-segmentation",
+                "documentation_url": "https://github.com/sdsc-ordes/ordfts-hackathon-vehicles-detection"
+            },
+            {
+                "schema_version": "1.0.0",
+                "schema_type": "dataset",
+                "dataset_id": "0003-pneuma-vision-parquet",
+                "title": "pNEUMA vision parquet",
+                "doi": "10.5281/zenodo.7426506",
+                "version": "v1",
+                "description": "This is a mirror test of the pNEUMA vision dataset in HuggingFace allowing streaming of data.",
+                "created_at": "2023-08-30T21:12:56Z",
+                "updated_at": "2023-08-30T21:12:56Z",
+                "data_format": "parquet",
+                "tags": [
+                    "traffic",
+                    "GNSS",
+                    "urban mobility",
+                    "traffic safety"
+                ],
+                "source": "Hugging Face",
+                "authors": [
+                    {
+                        "name": "Carlos Vivar Rios"
+                    }
+                ],
+                "license": "CC BY 4.0",
+                "access_url": "https://huggingface.co/datasets/katospiegel/pneuma-vision-parquet",
+                "documentation_url": "https://github.com/sdsc-ordes/ordfts-hackathon-vehicles-detection"
             },
             {
                 "schema_version": "1.0.0",
