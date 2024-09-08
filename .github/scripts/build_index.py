@@ -10,7 +10,7 @@ def read_yaml_files(base_path, folders):
     yaml_files = []
     for folder in folders:
         folder_path = base_path.joinpath(folder)
-        for yaml_file in folder_path.glob('*.yaml'):
+        for yaml_file in list(folder_path.glob('*.yaml')) + list(folder_path.glob('*.yml')):
             with open(yaml_file, 'r', encoding='utf-8') as f:
                 yaml_files.append((folder, yaml.safe_load(f)))
     return yaml_files

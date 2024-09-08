@@ -12,19 +12,19 @@ This is an example of a hackathon project proposing a Research Data Infrastrucre
 
 ## Features of this RDI Hub
 
-- **Catalog of related assets**: These are cards 
-- **Contributions & revision guidelines**: 
-- **Automations**:
-- **Static landing page**: 
-- **Blog**: 
-- **Interative serverless webapps**: 
+- **Catalog of related assets**: These are resources cards contained in the catalog.
+- **Contributions & revision guidelines**: Guidelines TBD
+- **Automations**: Github actions
+- **Static landing page**: Page built in gh-pages.
+- **Blog**: TBD
+- **Interative serverless webapps**: TBD
 - **Tutorials**: Basic operations 
 
 
 This RDI Hub follow the FAIR principles: 
 
 - Findability: It helps to find related assets via the catalog and the static landing page. 
-- Accesibility: 
+- Accesibility: The datasets are provided in a cloud friendly format reducing the friction of access. Interactive serverless tutorials are planned to be provided.
 - Interoperability: The catalog follows the schema located in `./catalog/schemas/` and is available in machine-readable format allowing for easy interaction between tools, programming languages, and frameworks.
 - Reproducibility: The mandatory request of D.O.I. of each asset used increase the reproducibility of the results in related 
 
@@ -64,7 +64,6 @@ Each of these assets type has one basic metadata file requested.
 5. The PR approval will trigger a github action, validating the item added.
 6. The action will render the new information in the page
 
-
 #### How to add a new project to this Hub?
 
 TBD
@@ -79,15 +78,21 @@ Adding or editing a research schema is as easy a modifying one of the files loca
 
 ### How the community can add a new webapp? 
 
-Making use of the last development in webassembly technologies 
+Making use of the last development in webassembly technologies. 
+
+Ideas for serverless apps: 
+
+- Include stlite form
+- Include jupyter lite application
 
 
 ### How the page is built?
 
+TBD
+
 ### How is the roadmap organized? 
 
-Open issues are registered in the repository and taken by the community. 
-
+Open issues are registered in the repository and addressed by the community.
 
 ## Development
 
